@@ -7,6 +7,8 @@ import Profile from "./components/profile_props";
 import Bio from "./qcomps/bios";
 import MyFirstComp from "./qcomps/firstcomp";
 import GalleryProps from "./qcomps/gallery_props";
+import PackingList from "./qcomps/props_item";
+import RecipeList from "./qcomps/recipes";
 import TodoList from "./qcomps/todos";
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <Bio />
       <TodoList />
       <GalleryProps />
+      <PackingList />
+      <RecipeList />
     </>
   );
 }
