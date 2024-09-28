@@ -6,7 +6,9 @@ import {
   default as Profile,
   default as ProfileMistake,
 } from "./components/profile";
+import Bio from "./qcomps/bios";
 import MyFirstComp from "./qcomps/firstcomp";
+import TodoList from "./qcomps/todos";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Profile />
       <ProfileMistake />
       <MyFirstComp />
+      <Bio />
+      <TodoList />
     </>
   );
 }
