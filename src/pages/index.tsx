@@ -2,8 +2,11 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 // import styles from '@/styles/Home.module.css'
-import ProfileMistake from "./components/profile";
-import Profile from "./components/profile_props";
+import {
+  default as Profile,
+  default as ProfileMistake,
+} from "./components/profile";
+import { default as ProfileProps } from "./components/profile_props";
 import Bio from "./qcomps/bios";
 import MyFirstComp from "./qcomps/firstcomp";
 import GalleryProps from "./qcomps/gallery_props";
@@ -19,6 +22,7 @@ export default function Home() {
       <MyFirstComp />
       <Bio />
       <TodoList />
+      <ProfileProps />
       <GalleryProps />
       <PackingList />
       <RecipeList />
