@@ -10,6 +10,10 @@ import GalleryProps from "./qcomps/gallery_props";
 import ProfileMistake from "./qcomps/profile_mistake";
 import PackingList from "./qcomps/props_item";
 import RecipeList from "./qcomps/recipes";
+import RequestTracker from "./qcomps/shoppingCart";
+import Gallery from "./qcomps/state";
+import Form from "./qcomps/stuckForm";
+import FeedbackForm from "./qcomps/thankYouCrash";
 import TodoList from "./qcomps/todos";
 
 export default function Home() {
@@ -24,6 +28,22 @@ export default function Home() {
       <GalleryProps />
       <PackingList />
       <RecipeList />
+
+      {/* LAB: React Update State */}
+      <hr />
+      <h1>React Update State</h1>
+
+      <Gallery />
+      <br />
+
+      <Form />
+      <br />
+
+      <FeedbackForm />
+      <br />
+
+      <RequestTracker />
+      <br />
     </>
   );
 }
