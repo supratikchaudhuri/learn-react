@@ -6,6 +6,7 @@ import RequestTracker from "./qcomps/shoppingCart";
 import Gallery from "./qcomps/state";
 import Form from "./qcomps/stuckForm";
 import FeedbackForm from "./qcomps/thankYouCrash";
+import Scoreboard from "./qcomps/updObjectsForm";
 
 export default function Home() {
   return (
@@ -37,6 +38,9 @@ export default function Home() {
       <hr />
 
       <RequestTracker />
+      <hr />
+
+      <Scoreboard />
       <hr />
     </>
   );
