@@ -2,10 +2,9 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 // import styles from '@/styles/Home.module.css'
+import BucketList from "./qcomps/arrObj";
+import List from "./qcomps/artistsRemoveArr";
 import RequestTracker from "./qcomps/shoppingCart";
-import Gallery from "./qcomps/state";
-import Form from "./qcomps/stuckForm";
-import FeedbackForm from "./qcomps/thankYouCrash";
 import Scoreboard from "./qcomps/updObjectsForm";
 
 export default function Home() {
@@ -26,7 +25,7 @@ export default function Home() {
       <hr />
       <h1>React Update State</h1>
 
-      <Gallery />
+      {/* <Gallery />
       <hr />
 
       <Form />
@@ -35,13 +34,18 @@ export default function Home() {
       <FeedbackForm />
       <hr />
 
-      <hr />
+      <hr /> */}
 
       <RequestTracker />
       <hr />
 
       <Scoreboard />
       <hr />
+
+      <List />
+      <hr />
+
+      <BucketList />
     </>
   );
 }
